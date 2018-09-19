@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #Tu dodaję moją aplikację
+    'HelloDjangoApp',
 ]
 
 MIDDLEWARE_CLASSES = [

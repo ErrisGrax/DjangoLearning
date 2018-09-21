@@ -25,4 +25,6 @@ urlpatterns = [
     url(r'^home$', HelloDjangoApp.views.index, name='home'),
     url(r'^subpage1$', HelloDjangoApp.views.subpage1, name='subpage'),
     url(r'^timewatch$', HelloDjangoApp.views.timewatch, name='time'),
+    url(r'^about$', HelloDjangoApp.views.about, name='about'),
+
 ]
